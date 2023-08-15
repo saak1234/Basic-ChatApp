@@ -1,0 +1,12 @@
+.side {
+    border: 1px solid rgb(128, 126, 126);
+    height:90vh;
+    width: 20vw;
+}
+
+@media (max-width: 768px) {
+    .side {
+        width: 100%; 
+        height: auto; 
+    }
+}

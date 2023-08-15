@@ -1,0 +1,12 @@
+.top{
+    display: flex;
+    background-color:white;
+    height:4rem;
+    align-items: center;
+    padding-left:1rem;
+   justify-content:space-between ;
+}
+
+.right{
+    width:fit-content;
+}

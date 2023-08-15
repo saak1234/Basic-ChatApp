@@ -1,0 +1,44 @@
+.container{
+    margin:auto;
+    margin-top:20vh;
+    height:50vh;
+    width:30vw;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+}
+.chatRoom{
+margin-bottom:1rem;
+}
+.login{
+   font-size:8em;
+   color:white;
+   background-color: rgb(0, 191, 0);
+   border-radius:1rem;
+}
+.button{
+    height:2rem;
+    width:fit-content;
+    margin-top:1rem;
+    background-color: greenyellow;
+    color:green;
+    font-weight:bold;
+    border:none;
+}
+@media (max-width:1059px){
+    .container{
+    
+            margin:auto;
+            margin-top:20vh;
+            height:50vh;
+            width:40vh;
+            background-color:white;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center; 
+        
+    }
+}

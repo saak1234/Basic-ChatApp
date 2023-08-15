@@ -1,0 +1,43 @@
+.name{
+  font-size: x-small;
+  font-weight:bold  ;
+}
+  .chat {
+    margin: 1rem;
+  }
+  .sender {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    width: fit-content;
+    position: relative;
+    background-color: white;
+    padding: 6px;
+    border-radius: 6px;
+    margin-right: auto;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  
+  .receiver {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1px;
+    width: fit-content;
+    background-color: rgb(103, 235, 103);
+    padding: 6px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: 0;
+    flex-direction: column;
+
+  }
+  .time{
+    font-size: xx-small;
+    font-weight:bold;
+  }
+  .message{
+    font-size:small;
+  }

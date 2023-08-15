@@ -1,0 +1,13 @@
+.main {
+    height: 90vh;
+    width: 50vw;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 100%; 
+        
+    }
+}
