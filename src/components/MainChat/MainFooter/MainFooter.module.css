@@ -13,9 +13,11 @@
     
 }
 @media (max-width: 768px) {
-    .footer{
-        height:1rem;
-        
+    .footer{ 
+        margin-top:1rem;
+    }
+    .footer input{  
+        width:7rem;
     }
     
 }

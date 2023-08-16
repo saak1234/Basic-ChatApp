@@ -9,4 +9,11 @@
 
 .right{
     width:fit-content;
+    display:flex;
+    flex-direction: row;
+}
+@media(max-width:768px){
+.chatName{
+    font-size: large;
+}
 }

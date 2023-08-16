@@ -10,9 +10,6 @@ function App() {
   <>
    {!ctx.isLoggedIn && <Login/>}
   {ctx.isLoggedIn && <Content/>}
-    
-    
-  
    </>
   );
 }
