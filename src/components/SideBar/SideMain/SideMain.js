@@ -8,7 +8,7 @@ import { collection,getDocs,addDoc} from 'firebase/firestore/lite';
 const SideMain=(props)=>{
     const [chats,setChats]=useState([])
     const collectionRef=collection(db,"Rooms")
-    const [src,setSrc]=useState("");
+    const [src,setSrc]=useState(5000);
     const [input,setInput]=useState('');
     const [searchChat,setSearchChat]=useState({});
     const [search,setSearch]=useState(false);
@@ -27,9 +27,10 @@ const SideMain=(props)=>{
         const newName=prompt("Enter new Room");
         if(newName){
         setSrc(Math.floor(Math.random()*5000))
+        console.log(src);
             const newData={
             name:newName,
-            photo:`https://avatars.dicebear.com/api/bottts/${src}.svg`,
+            photo:`https://robohash.org/${src}`,
         }
         addDoc(collectionRef,newData)
     }

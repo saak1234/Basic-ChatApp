@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "whats-app-1b651",
   storageBucket: "whats-app-1b651.appspot.com",
   messagingSenderId: "1039060571450",
-  appId: "1:1039060571450:web:b95066a5efc23c66686c03"
+  appId: "1:1039060571450:web:1b4c209688d51af9686c03"
 };
 
 // Initialize Firebase
